@@ -20,6 +20,13 @@ cd user_notes_backend
 npm install
 ```
 
+### CROSS-PLATFORM SETUP
+add these in your '.env' file
+```
+PORT=portnumber
+NODE_ENV=development
+FRONTEND_URL=http://localhost:port
+```
 ### 📁 **2. Database Setup**
 
 - Create a `.env` file in the root of the project directory.
